@@ -1,0 +1,59 @@
+.container{
+    background-image: url("images/minimal_bg.webp");
+    background-size: cover;
+    width: 480px;
+    height: 320px;
+    margin: 0 auto;
+    border: 2px solid ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container h2{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-size: 50px;
+}
+.container h1{
+    margin-top: 24px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 160px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+#increment-btn{
+    background-color: #ff6d44;
+}
+#increment-btn:hover{
+    background-color: #f75224;
+}
+#save-btn{
+    background-color: #58d4d4;
+    margin-right: 8px;
+}
+#save-btn:hover{
+    background-color: #1fc8c8;
+}
+#clear-btn{
+    background-color: #65ed60;
+}
+#clear-btn:hover{
+    background-color: #20e01a;
+}
+#saveEntry{
+    font-size: 24px;
+    margin-top: 0px;
+    
+}
